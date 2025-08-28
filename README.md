@@ -39,6 +39,19 @@ Infrared-visible image fusion datasets:
 - **MSRS**： https://github.com/Linfeng-Tang/MSRS
 - **FLIR**：https://oem.flir.com/zh-cn/solutions/automotive/adas-dataset-form/、
 
-      
+
+    
 Medical datasets：
 - **Havard Medical Image Fusion Datasets**：https://github.com/xianming-gu/Havard-Medical-Image-Fusion-Datasets
+
+
+
+
+
+
+
+
+## 🔹 Contributing & Contact
+
+Thank you for reading and supporting SGAFusion! If you have any questions or encounter issues, feel free to open an issue in this repository or contact me directly at **junjiema_xmtra@163.com**.  
+We welcome contributions—please fork the repo, make your changes, and submit a pull request.
