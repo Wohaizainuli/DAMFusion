@@ -13,7 +13,12 @@
 The structure of **DAMFusion** is illustrated in the figure below:
 
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3.jpg)
+<img src="https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3.jpg" width="400"/>
+*Fig. 1: Overall Architecture of DAMFusion. For the detailed network structure, please refer to `model/vir_branch.py`.*  
 
+
+
+The structures of EDMoE and FMoE are further illustrated in the figure below.
 
 
 ## 🔹 Dataset
