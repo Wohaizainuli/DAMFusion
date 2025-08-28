@@ -1,7 +1,11 @@
 # DAMFusion: A Degradation-Aware Adaptive Multi-Task Fusion Framework for Robust Image Integration  
 
-> This repository provides a non-official and simplified version of our implementation, intended solely for academic communication and preliminary understanding.  
-> To protect the originality of our work and ensure compliance with data and intellectual property considerations, the **complete codebase will be released after the paper is officially published**.  
+> This repository provides a non-official and simplified version of our implementation, intended solely for academic communication and preliminary understanding.
+
+     
+> To protect the originality of our work and ensure compliance with data and intellectual property considerations, the **complete codebase will be released after the paper is officially published**.
+
+     
 > We appreciate your understanding and support!
 
 ## 🔹 Dataset
