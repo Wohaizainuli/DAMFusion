@@ -9,15 +9,15 @@
 > We appreciate your understanding and support!
 
 ## 🔹 Dataset
-To begin, please first acquire the datasets. This project uses Five publicly available datasets：  
+To begin, please first acquire the datasets. This project uses 5 publicly available datasets：  
 
     
-(1) Infrared-visible image fusion datasets:
-- **LLVIP**：http://bupt-ai-cz.github.io/LLVIP/
-- **M3FD**：https://github.com/dlut-dimt/TarDAL
-- **MSRS**： https://github.com/Linfeng-Tang/MSRS
-- **FLIR**：https://oem.flir.com/zh-cn/solutions/automotive/adas-dataset-form/、
+Infrared-visible image fusion datasets:
+- 1.**LLVIP**：http://bupt-ai-cz.github.io/LLVIP/
+- 2.**M3FD**：https://github.com/dlut-dimt/TarDAL
+- 3.**MSRS**： https://github.com/Linfeng-Tang/MSRS
+- 4.**FLIR**：https://oem.flir.com/zh-cn/solutions/automotive/adas-dataset-form/、
 
       
-(2) Medical datasets：
-- **Havard Medical Image Fusion Datasets**：https://github.com/xianming-gu/Havard-Medical-Image-Fusion-Datasets
+Medical datasets：
+- 5.**Havard Medical Image Fusion Datasets**：https://github.com/xianming-gu/Havard-Medical-Image-Fusion-Datasets
