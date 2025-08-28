@@ -13,13 +13,16 @@
 The structure of **DAMFusion** is illustrated in the figure below:
 
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3.jpg)
-<img src="https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3.jpg" width="400"/>
+
 *Fig. 1: Overall Architecture of DAMFusion. For the detailed network structure, please refer to `model/vir_branch.py`.*  
 
 
 
-The structures of EDMoE and FMoE are further illustrated in the figure below.
+The structures of EDMoE and FMoE are further illustrated in the figure below.  
 
+![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/4.jpg)  
+
+*Fig. 2: The architectures of EDMoE and FMoE. Both are composed of three components: Gating, Expert Layer and Aggregation Layer. For the detailed network structure, please refer to `model/vir_branch.py`,`FMoEGate.py` and `Mltransformer.py` *  
 
 ## 🔹 Dataset
 To begin, please first acquire the datasets. This project uses 5 publicly available datasets：  
