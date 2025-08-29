@@ -47,6 +47,9 @@ Medical datasets：
 
 Please refer to the official sources of each dataset for download and usage instructions.
 
+## 🔹 Model Training
+Due to multiple considerations, including data confidentiality and resource constraints, we are currently unable to provide the trained model weights.   
+We understand that this may cause some inconvenience, and we sincerely appreciate your interest and support.
 
 ## 🔹 Result
 Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
