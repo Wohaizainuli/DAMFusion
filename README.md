@@ -48,8 +48,13 @@ Medical datasets：
 Please refer to the official sources of each dataset for download and usage instructions.
 
 
+## 🔹 Result
+Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
+![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/result1.jpg)
+*Fig .3: Visual Comparison on the Infrared-Visible Dataset.*
 
-
+![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/result2.jpg)
+*Fig .4: Visual Comparison on the Medical Dataset.*
 
 ## 🔹 Contributing & Contact
 
