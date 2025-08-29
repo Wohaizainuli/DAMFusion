@@ -78,7 +78,7 @@ After placing the images to be fused in the specified input directory, the fusio
 
 
 ## 🔹 Result
-We selected a subset of the dataset and their corresponding fusion results, which are provided in the /Image directory.Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
+We selected a subset of the dataset and their corresponding fusion results, which are provided in the `/Image` directory.Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/result1.jpg)
 *Fig .3: Visual Comparison on the Infrared-Visible Dataset.*
 
