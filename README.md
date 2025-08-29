@@ -62,11 +62,13 @@ The trained models are saved under the `run/` directory. The overall training pr
 We first perform LoRA-based fine-tuning on a pretrained CLIP classifier to enable the model to generate degradation-aware image embeddings directly from the input images. The resulting model weights are saved as `w1`.    
 For more details on this step, please refer to the author's related repository: SGAFusion(https://github.com/Wohaizainuli/SGAFusion)    
  **Step 2: Training Stage I – Image Restoration Network**  
-Next, we load w1 and use `train_main0.py` to train the Stage I image restoration network. After training, we save the encoder weights of the final model as `w2`.    
+Next, we load `w1` and use `train_main0.py` to train the Stage I image restoration network. After training, we save the encoder weights of the final model as `w2`.    
  **Step 3: Training Stage II – Joint Fusion Network**  
-Finally, we load both `w1` and `w2`, and run `train_main1.py` to train the Stage II joint fusion network. The final model weights from this stage are saved as `w3`.  
+Finally, we load both `w1` and `w2`, and run `train_main1.py` to train the Stage II joint fusion network. The final model weights from this stage are saved as `w3`. 
 
-
+## 🔹 Model Inference  
+To perform inference, run `test_parms_fps.py` with the pretrained weights `w1` and `w3`.
+After placing the images to be fused in the specified input directory, the fusion results will be automatically generated and saved to the corresponding output directory.
 
 ## 🔹 Result
 Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
