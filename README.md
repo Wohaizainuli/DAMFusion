@@ -45,7 +45,7 @@ Medical datasets：
 - **Havard Medical Image Fusion Datasets**：https://github.com/xianming-gu/Havard-Medical-Image-Fusion-Datasets
 
 
-
+Please refer to the official sources of each dataset for download and usage instructions.
 
 
 
