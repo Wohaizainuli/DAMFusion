@@ -56,14 +56,15 @@ We understand that this may cause some inconvenience, and we sincerely appreciat
 
 
 
-The trained models are saved under the `run/` directory. The overall training process consists of three main stages:
-**Step 1: LoRA Fine-tuning on a Pretrained CLIP Classifier**  
-We first perform LoRA-based fine-tuning on a pretrained CLIP classifier to enable the model to generate degradation-aware image embeddings directly from the input images. The resulting model weights are saved as `w1`.  
-For more details on this step, please refer to the author's related repository: SGAFusion(https://github.com/Wohaizainuli/SGAFusion)  
-**Step 2: Training Stage I – Image Restoration Network**
-Next, we load w1 and use `train_main0.py` to train the Stage I image restoration network. After training, we save the encoder weights of the final model as `w2`.  
-**Step 3: Training Stage II – Joint Fusion Network**
-Finally, we load both `w1` and `w2`, and run `train_main1.py` to train the Stage II joint fusion network. The final model weights from this stage are saved as `w3`.
+The trained models are saved under the `run/` directory. The overall training process consists of three main stages:  
+
+ **Step 1: LoRA Fine-tuning on a Pretrained CLIP Classifier**  
+We first perform LoRA-based fine-tuning on a pretrained CLIP classifier to enable the model to generate degradation-aware image embeddings directly from the input images. The resulting model weights are saved as `w1`.    
+For more details on this step, please refer to the author's related repository: SGAFusion(https://github.com/Wohaizainuli/SGAFusion)    
+ **Step 2: Training Stage I – Image Restoration Network**  
+Next, we load w1 and use `train_main0.py` to train the Stage I image restoration network. After training, we save the encoder weights of the final model as `w2`.    
+ **Step 3: Training Stage II – Joint Fusion Network**  
+Finally, we load both `w1` and `w2`, and run `train_main1.py` to train the Stage II joint fusion network. The final model weights from this stage are saved as `w3`.  
 
 
 
