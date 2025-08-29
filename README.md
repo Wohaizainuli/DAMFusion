@@ -74,15 +74,28 @@ Finally, we load both `w1` and `w2`, and run `train_main1.py` to train the Stage
 
 ## 🔹 Model Inference  
 To perform inference, run `test_parms_fps.py` with the pretrained weights `w1` and `w3`.
-After placing the images to be fused in the specified input directory, the fusion results will be automatically generated and saved to the corresponding output directory.
+After placing the images to be fused in the specified input directory, the fusion results will be automatically generated and saved to the corresponding output directory.  
+
 
 ## 🔹 Result
-Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
+We selected a subset of the dataset and their corresponding fusion results, which are provided in the /Image directory.Figures 3 and 4 below illustrate the fusion results of the proposed algorithm in comparison with those of the baseline methods.
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/result1.jpg)
 *Fig .3: Visual Comparison on the Infrared-Visible Dataset.*
 
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/result2.jpg)
 *Fig .4: Visual Comparison on the Medical Dataset.*
+
+## 🔹 Extension Experiment  
+
+Furthermore, to assess the effectiveness of the proposed fusion method, we conduct object detection experiments using the YOLOv8 model (https://github.com/ultralytics/ultralytics) as a downstream task.  
+  
+    
+    The visual comparison of the detection results is presented in the figure below.
+    
+![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/Detection.jpg)
+*Fig .5: Visual Comparison of Object Detection. The LLVIP dataset only provides labels for the "Person" class.*
+
+
 
 ## 🔹 Contributing & Contact
 
