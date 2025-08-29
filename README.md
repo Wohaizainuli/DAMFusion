@@ -89,8 +89,10 @@ We selected a subset of the dataset and their corresponding fusion results, whic
 
 Furthermore, to assess the effectiveness of the proposed fusion method, we conduct object detection experiments using the YOLOv8 model (https://github.com/ultralytics/ultralytics) as a downstream task.  
   
+
+  
     
-    The visual comparison of the detection results is presented in the figure below.
+The visual comparison of the detection results is presented in the figure below.
     
 ![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/Detection.jpg)
 *Fig .5: Visual Comparison of Object Detection. The LLVIP dataset only provides labels for the "Person" class.*
