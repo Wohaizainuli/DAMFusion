@@ -1,4 +1,4 @@
-# DAMFusion: A Degradation-Aware Adaptive Multi-Task Fusion Framework for Robust Image Integration  
+# DAMFusion: Degradation-Aware Multi-Task Multi-Modal Image Fusion  
 
 > DAMFusion is a Degradation-Aware Adaptive Multi-Task Fusion Framework designed to enhance robust image integration across various imaging tasks.
 > It leverages a two-stage autoencoder architecture in combination with a Mixture of Experts (MoE) network to adaptively handle multiple tasks.
