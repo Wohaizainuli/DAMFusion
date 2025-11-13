@@ -17,7 +17,7 @@
 
 The structure of **DAMFusion** is illustrated in the figure below:
 
-![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3.jpg)
+![image](https://github.com/Wohaizainuli/DAMFusion/blob/main/Figure/3-1.jpg)
 
 *Fig. 1: Overall Architecture of DAMFusion. For the detailed network structure, please refer to `model/vir_branch.py`.*  
 
